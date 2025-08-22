@@ -1,0 +1,18 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Ultralytics runs/checkpoints
+runs/
+*.pt
+*.onnx
+*.engine
+*.tflite
+
+# Datasets (keep outside git)
+data/
+datasets/
+
+# Jupyter
+.ipynb_checkpoints/
