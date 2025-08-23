@@ -1,0 +1,1 @@
+# extract frame from input video from GrandChallenge
