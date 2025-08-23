@@ -1,0 +1,18 @@
+# /home/kuo/yolo/data.yaml
+path: /home/kuo/yolo/data
+train: train/images
+val: validation/images
+
+nc: 12
+names: ["bipolar_forceps",
+        "cadiere_forceps",
+        "clip_applier",
+        "force_bipolar",
+        "grasping_retractor",
+        "monopolar_curved_scissors",
+        "needle_driver",
+        "permanent_cautery_hook_spatula",
+        "prograsp_forceps",
+        "stapler",
+        "tip_up_fenestrated_grasper",
+        "vessel_sealer"]
