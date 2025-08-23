@@ -13,6 +13,7 @@ runs/
 # Datasets (keep outside git)
 data/
 datasets/
+data_masked/
 
 # Jupyter
 .ipynb_checkpoints/
