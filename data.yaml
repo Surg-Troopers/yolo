@@ -1,5 +1,5 @@
 # /home/kuo/yolo/data.yaml
-path: /home/kuo/yolo/data
+path: /home/kuo/yolo/data_masked
 train: train/images
 val: validation/images
 
