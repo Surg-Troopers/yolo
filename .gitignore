@@ -14,6 +14,33 @@ runs/
 data/
 datasets/
 data_masked/
+50_50_augment/
+100_blur_mask_set/
+Cat1_vid1_frames/
+data_fixed/
+data_fixeD/
+data_masked_fixed/
+data_obb/
+extracted_1_fps1/
+extracted_1_fps1_augmented/
+extracted_2_fps1/
+extracted_2_fps1_augmented/
+extracted_3_fps1/
+extracted_3_fps1_augmented/
+extracted_4_fps1/
+extracted_4_fps1_augmented/
+extracted_5_fps1/
+extracted_5_fps1_augmented/
+extracted_6_fps1/
+extracted_6_fps1_augmented/
+extracted_7_fps1/
+extracted_7_fps1_augmented/
+finalized_dataset_fixed/
+new_data_sept8_after_mask/
+new_data_sept8_b4_mask/
+new_data_sept8_split/
+Training_Pseudo/
 
 # Jupyter
 .ipynb_checkpoints/
+

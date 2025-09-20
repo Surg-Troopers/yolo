@@ -1,18 +1,117 @@
 # /home/kuo/yolo/data.yaml
-path: /home/kuo/yolo/data_masked
-train: train/images
-val: validation/images
+# path: /home/kuo/yolo
+# train: 
+# - /data_masked_fixed/train/images
+# - /pseudo_cat1_vid1/images
+# - /pseudo_cat1_vid2/images
+# - /pseudo_cat1_vid3/images
+# - /pseudo_cat1_vid4/images
+# - /pseudo_cat1_vid5/images
+# - /pseudo_cat1_vid6/images
+# val: 
+# - /data_masked_fixed/validation/images
+
+# nc: 12
+# names: ["bipolar_forceps",
+#         "cadiere_forceps",
+#         "clip_applier",
+#         "force_bipolar",
+#         "grasping_retractor",
+#         "monopolar_curved_scissors",
+#         "needle_driver",
+#         "permanent_cautery_hook_spatula",
+#         "prograsp_forceps",
+#         "stapler",
+#         "tip_up_fenestrated_grasper",
+#         "vessel_sealer"]
+
+train:
+  - /home/kuo/yolo/new_data_sept8_after_mask/train/images
+  # - "/home/kuo/yolo/100_nigga_mask_set/new_data_sept8_after_mask/train/images"
+  # - /home/kuo/yolo/gray_scale/new_data_sept8_after_mask/train/images
+  - /home/kuo/yolo/extracted_1_fps1/train/images
+  - /home/kuo/yolo/extracted_2_fps1/train/images
+  - /home/kuo/yolo/extracted_3_fps1/train/images
+  - /home/kuo/yolo/extracted_4_fps1/train/images                                    
+  - /home/kuo/yolo/extracted_5_fps1/train/images
+  - /home/kuo/yolo/extracted_6_fps1/train/images
+  - /home/kuo/yolo/extracted_7_fps1/train/images
+  # - /home/kuo/yolo/for_pseudo_ltr_after_split/1/train/images
+  # - /home/kuo/yolo/for_pseudo_ltr_after_split/2/train/images
+  # - /home/kuo/yolo/for_pseudo_ltr_after_split/3/train/images
+  # - /home/kuo/yolo/for_pseudo_ltr_after_split/4/train/images
+  # - /home/kuo/yolo/for_pseudo_ltr_after_split/5/train/images
+  # - /home/kuo/yolo/for_pseudo_ltr_after_split/6/train/images
+  # - /home/kuo/yolo/for_pseudo_ltr_after_split/7/train/images
+  # - /home/kuo/yolo/for_pseudo_ltr_after_split/8/train/images
+  # - /home/kuo/yolo/extracted_1_fps1_augmented/train
+  # - /home/kuo/yolo/extracted_2_fps1_augmented/train
+  # - /home/kuo/yolo/extracted_3_fps1_augmented/train
+  # - /home/kuo/yolo/extracted_4_fps1_augmented/train
+  # - /home/kuo/yolo/extracted_5_fps1_augmented/train
+  # - /home/kuo/yolo/extracted_6_fps1_augmented/train
+  # - /home/kuo/yolo/extracted_7_fps1_augmented/train
+  # - "/home/kuo/yolo/100_blur_mask_set/extracted_1_fps1/train/images"
+  # - "/home/kuo/yolo/100_blur_mask_set/extracted_2_fps1/train/images"
+  # - "/home/kuo/yolo/100_blur_mask_set/extracted_3_fps1/train/images"
+  # - "/home/kuo/yolo/100_blur_mask_set/extracted_4_fps1/train/images"
+  # - "/home/kuo/yolo/100_blur_mask_set/extracted_5_fps1/train/images"
+  # - "/home/kuo/yolo/100_blur_mask_set/extracted_6_fps1/train/images"
+  # - "/home/kuo/yolo/100_blur_mask_set/extracted_7_fps1/train/images"
+  # - /home/kuo/yolo/gray_scale/extracted_1_fps1_gray/train/images
+  # - /home/kuo/yolo/gray_scale/extracted_2_fps1_gray/train/images
+  # - /home/kuo/yolo/gray_scale/extracted_3_fps1_gray/train/images
+  # - /home/kuo/yolo/gray_scale/extracted_4_fps1_gray/train/images
+  # - /home/kuo/yolo/gray_scale/extracted_5_fps1_gray/train/images
+  # - /home/kuo/yolo/gray_scale/extracted_6_fps1_gray/train/images
+  # - /home/kuo/yolo/gray_scale/extracted_7_fps1_gray/train/images 
+
+
+val:
+  - /home/kuo/yolo/new_data_sept8_after_mask/validation/images
+  # - /home/kuo/yolo/gray_scale/new_data_sept8_after_mask/validation/images
+  # - /home/kuo/yolo/gray_scale/extracted_1_fps1_gray/validation/images
+  # - /home/kuo/yolo/gray_scale/extracted_2_fps1_gray/validation/images
+  # - /home/kuo/yolo/gray_scale/extracted_3_fps1_gray/validation/images
+  # - /home/kuo/yolo/gray_scale/extracted_4_fps1_gray/validation/images
+  # - /home/kuo/yolo/gray_scale/extracted_5_fps1_gray/validation/images
+  # - /home/kuo/yolo/gray_scale/extracted_6_fps1_gray/validation/images
+  # - /home/kuo/yolo/gray_scale/extracted_7_fps1_gray/validation/images
+  - /home/kuo/yolo/extracted_1_fps1/validation/images
+  - /home/kuo/yolo/extracted_2_fps1/validation/images
+  - /home/kuo/yolo/extracted_3_fps1/validation/images
+  - /home/kuo/yolo/extracted_4_fps1/validation/images
+  - /home/kuo/yolo/extracted_5_fps1/validation/images
+  - /home/kuo/yolo/extracted_6_fps1/validation/images
+  - /home/kuo/yolo/extracted_7_fps1/validation/images
+  # - /home/kuo/yolo/for_pseudo_ltr_after_split/1/validation/images
+  # - /home/kuo/yolo/for_pseudo_ltr_after_split/2/validation/images
+  # - /home/kuo/yolo/for_pseudo_ltr_after_split/3/validation/images
+  # - /home/kuo/yolo/for_pseudo_ltr_after_split/4/validation/images
+  # - /home/kuo/yolo/for_pseudo_ltr_after_split/5/validation/images
+  # - /home/kuo/yolo/for_pseudo_ltr_after_split/6/validation/images
+  # - /home/kuo/yolo/for_pseudo_ltr_after_split/7/validation/images
+  # - /home/kuo/yolo/for_pseudo_ltr_after_split/8/validation/images
+#   - /home/kuo/yolo/Training_Pseudo/pseudo_for_training_vid1/validation/images
+#   - /home/kuo/yolo/Training_Pseudo/pseudo_for_training_vid2/validation/images
+#   - /home/kuo/yolo/Training_Pseudo/pseudo_for_training_vid3/validation/images
+#   - /home/kuo/yolo/Training_Pseudo/pseudo_for_training_vid4/validation/images
+#   - /home/kuo/yolo/Training_Pseudo/pseudo_for_training_vid5/validation/images
+#   - /home/kuo/yolo/Training_Pseudo/pseudo_for_training_vid6/validation/images
 
 nc: 12
-names: ["bipolar_forceps",
-        "cadiere_forceps",
-        "clip_applier",
-        "force_bipolar",
-        "grasping_retractor",
-        "monopolar_curved_scissors",
-        "needle_driver",
-        "permanent_cautery_hook_spatula",
-        "prograsp_forceps",
-        "stapler",
-        "tip_up_fenestrated_grasper",
-        "vessel_sealer"]
+names: [
+  "bipolar_forceps",
+  "cadiere_forceps",
+  "clip_applier",
+  "force_bipolar",
+  "grasping_retractor",
+  "monopolar_curved_scissors",
+  "needle_driver",
+  "permanent_cautery_hook_spatula",
+  "prograsp_forceps",
+  "stapler",
+  "tip_up_fenestrated_grasper",
+  "vessel_sealer"
+]
+

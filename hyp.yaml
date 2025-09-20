@@ -1,0 +1,20 @@
+# augmentation parameters
+hsv_h: 0.02      # hue change (surgical tools don’t vary in color much)
+hsv_s: 0.3       # saturation (medical colors consistent)
+hsv_v: 0.4       # brightness variation (operating light differences)
+
+degrees: 15.0    # rotations
+translate: 0.1   # translations
+scale: 0.5       # zoom in/out (tools may appear large/small)
+shear: 2.0       # light shear for shape variation
+perspective: 0.0 # 0.0 to avoid unnatural distortions
+
+flipud: 0.0      # tools rarely appear upside down
+fliplr: 0.5      # horizontal flip
+
+mosaic: 0.7      
+mixup: 0.2       # blending
+copy_paste: 0.3  # boost dataset size by pasting tools
+
+# regularization
+label_smoothing: 0.05 # softens one-hot labels
